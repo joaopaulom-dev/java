@@ -12,8 +12,10 @@ public class Java {
 
     public static void main(String[] args) {
         //Instancia novo objeto da classe
-        OlaMundo instancia  = new OlaMundo();
-        Empresa  instancia2 = new Empresa();
+        OlaMundo  instancia  = new OlaMundo();
+        Empresa   instancia2 = new Empresa();
+        Variaveis instancia3 = new Variaveis();
+        Operacao  instancia4 = new Operacao();
         
         //Informa valores para as propriedades da classe
         instancia2.id_em        = 47;
@@ -24,10 +26,19 @@ public class Java {
         //instancia.olaMundo();
         
         //Apresenta dados da empresa na tela
-        instancia2.apresentaDadosEm();
+        //instancia2.apresentaDadosEm();
         
         //Apresenta token de acesso na tela
-        Empresa.geraTokenEm();
+        //Empresa.geraTokenEm();
+        
+        //Apresenta variaveis na tela
+        //instancia3.apresentaVar();
+        
+        //Apresenta soma de valores na tela
+        instancia4.soma(10, 20);
+        instancia4.subtracao(20, 10);
+        instancia4.multiplicacao(10, 20);
+        instancia4.divisao(13, 2);
     }
     
 }

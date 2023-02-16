@@ -19,6 +19,29 @@ public class Variaveis {
         long   qtd_sql_lg    = 120000L;         //Pega valores muito grandes
         float  moeda         = 1240.54f;        //Pega valores decimais
         double calculo       = 23.2324323456D;  //Pega valores decimais muito grandes
+        
+        // ------------------------------ Outras ------------------------------ //
+        
+        boolean status   = true;                //Pega valores verdadeiros ou falsos
+        char    unidade  = 'C';                 //Pega um único caracter
+        String  fantasia = "Logon Solucoes";    //Pega valores de texto
+        
+        // ------------------------------ Apresenta variaveis na tela ------------------------------ //
+        
+        System.out.println("\n\n\n");
+        
+        System.out.println("// ------------------------------ Variaveis ------------------------------ //");
+        System.out.println("idade: " + idade);
+        System.out.println("funcionarios: " + funcionarios);
+        System.out.println("qtd_sql: " + qtd_sql);
+        System.out.println("qtd_sql_lg: " + qtd_sql_lg);
+        System.out.println("moeda: " + moeda);
+        System.out.println("calculo: " + calculo);
+        System.out.println("status: " + status);
+        System.out.println("unidade: " + unidade);
+        System.out.println("fantasia: " + fantasia);
+        
+        System.out.println("\n\n\n");
     }
     
 }
